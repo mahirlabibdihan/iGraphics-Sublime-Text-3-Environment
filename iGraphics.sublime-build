@@ -8,11 +8,11 @@
 	"variants":
 	[
 		{
-			"name": "Build+Run in Terminal",
+			"name": "Build+Run",
 			"shell_cmd": "g++ -IOpenGL\\include -w -c \"${file}\" -o a.o && g++.exe -LOpenGL\\lib a.o  -o \"${file_base_name}\" -lGlaux -lGLU32 -lglui32 -lglut32 -lOPENGL32 -lgdi32 -lwinmm -static-libgcc -static-libstdc++ && del a.o && \"${file_base_name}\""
 		},
 		{
-		 	"name": "Run in Terminal",
+		 	"name": "Run",
 		 	"shell_cmd": "${file_base_name}"
 		}
 	]
