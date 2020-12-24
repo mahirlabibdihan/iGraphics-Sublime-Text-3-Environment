@@ -1,2 +1,2 @@
-# iGraphics-Sublime-Text-3-Environment
+# Instruction
 Use iGraphics.sublime-build as Sublime text 3 build system
